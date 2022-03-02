@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            background-color: azure;
+            margin: auto;
+            max-width: 250px;
+           
+        }
+        input{
+            display: block;
+            margin: 10px auto; 
+            padding: 5px;
+            
+            
+        }
+        .success{
+            border: 1px solid green;
+        }
+        .error{
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body style="background-color: aqua;">
+    <div style="display: flex; justify-content: center; align-items: center;"><h1>DOM</h1></div>
+    <form action="" class="form">
+        <input type="text" id="username" name="username" placeholder="isim giriniz">
+        <div class="message"></div>
+        <input type="submit" value="gönder" >
+    </form>
+    <script src="nef.js"></script>
+</body>
+</html>
